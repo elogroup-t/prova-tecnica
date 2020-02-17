@@ -1,3 +1,5 @@
+![EloGroup](EloGroup.png)
+
 # Instruções para o Desafio de Programação
 
 
