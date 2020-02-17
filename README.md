@@ -21,4 +21,4 @@ O que você deve construir:
 3. Considerações
 	* As mensagens de validação podem ser emitidas por qualquer meio (alert, toast, dentre outros).
 	* Após o envio (considerar que se as validações de campos estiverem ok o envio ocorrerá com sucesso) o botão de enviar deve ser desabilitado.
-4. Os códigos desenvolvidos deverão ser "commitados" em um repositório do git hub e compartilhado em modo somente leitura com o seguinte usuário: ElogroupT-Felipe 
+4. Os códigos desenvolvidos deverão ser "commitados" em um repositório do git hub e compartilhado em modo somente leitura com o seguinte usuário: elogroup-t 
