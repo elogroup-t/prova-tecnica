@@ -4,7 +4,7 @@
 # Instruções para o Desafio de Programação
 
 
-Você deve desenvolver um formulário HTML e uma rotina em Javascript (pode ser feito em Javascript puro ou utilizando qualquer framework open source) que envie via POST os dados deste formulário em formato JSON para o endpoint "http://localhost:8080". Você tem até 16/03/2020 às 23:59 para submeter o desafio, boa sorte!
+Você deve desenvolver um formulário HTML e uma rotina em Javascript (pode ser feito em Javascript puro ou utilizando qualquer framework open source, desde que estteja explicitado qual no readme do repositório) que envie via POST os dados deste formulário em formato JSON para o endpoint "http://localhost:8080". Você tem até 16/03/2020 às 23:59 para submeter o desafio, boa sorte!
 
 
 O que você deve construir:
