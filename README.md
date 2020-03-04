@@ -30,6 +30,6 @@ O que você deve construir:
 	* Após o envio (considerar que se as validações de campos estiverem ok o envio ocorrerá com sucesso) o botão de enviar deve ser desabilitado.
 ---
 
-4. Os códigos desenvolvidos deverão ser "commitados" em um repositório do git hub, contendo um arquivo README.md explicando a hierarquia dos arquivos e informando o nome utilizado na plataforma Gupy, compartilhado em modo somente leitura com o seguinte usuário: elogroup-t 
+4. Os códigos desenvolvidos deverão ser "commitados" em um repositório do git hub, contendo um arquivo README.md explicando a hierarquia dos arquivos e informando o nome utilizado na plataforma Gupy, compartilhado em modo somente leitura, apenas após a finalização do desafio, com o seguinte usuário: elogroup-t 
 
 ---
