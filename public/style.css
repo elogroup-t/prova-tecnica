@@ -1,0 +1,104 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Flexo, sans-serif;
+}
+
+@font-face {
+    font-family: 'Flexo Thin';
+    src: url('Flexo-Thin.eot');
+    src: url('Flexo-Thin.eot?#iefix') format('embedded-opentype'),
+    url('Flexo-Thin.woff') format('woff'),
+    url('Flexo-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+
+header {
+    background-color: #000000;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: rgba(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+form {
+    padding: 15px;
+}
+
+input.form-control {
+    border-color: rgba(2, 2, 2, 1);
+}
+
+
+input.form-control:focus {
+    background: rgba(241, 241, 241);
+}
+
+span.input-group-text, #inputSelect{
+    background: rgba(239, 197, 38, 1);
+    color: rgba(2, 2, 2, 1);
+    border: none;
+}
+
+label#inputSelect, #basic-addon  {
+    width: 40px;
+}
+
+.custom-select {
+    border-color: rgba(2, 2, 2, 1);
+}
+
+input.btn {
+    width: 100%;
+    background: rgba(2, 2, 2, 1);
+    color: rgba(255, 255, 255);
+}
+
+input#btnSubmit:hover {
+    border-color: rgba(255, 255, 255);
+}
+
+label.title {
+    color: rgba(2, 2, 2, 1);
+    text-align: left;
+}
+div.form-check {
+    margin-left: -2%;
+}
+
+.col-principal {
+    width: 40%;
+    margin: 0 auto 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+#other {
+    margin-top: 2%;
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .col-principal {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    } 
+}
+
+  
