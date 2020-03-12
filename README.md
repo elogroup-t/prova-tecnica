@@ -21,7 +21,8 @@ Npm v6.13.4
 * [Nodejs](https://nodejs.org/en/) - Interpretador de JavaScript assíncrono. 
 * [Npm](https://www.npmjs.com/) - Gerenciador de dependências.   
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de código-fonte.  
-* [Git](https://git-scm.com/) - Sistema de controle de versões.
+* [Git](https://git-scm.com/) - Sistema de controle de versões
+* [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem de programção.
 
 # hierarquia dos arquivos
 ```
@@ -32,7 +33,8 @@ Npm v6.13.4
     - index.html
 - server.js
 - gitignore
-- package.json
+- package.
+- Readme.md
 ```
 Fontes externas constam com o link para a fonte
 
