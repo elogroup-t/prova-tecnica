@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6fbf1874ed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    </div>
+    <div class="container" id="principal">
+        <div class="row">
+            <div class="col-principal">
+                <form action="http://localhost:8080" method="POST" target="_blank" onsubmit="return validarform()">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Username" maxlength="45" aria-label="Username" aria-describedby="basic-addon1" pattern="^[A-z]{4,15} [A-z]{4,15} ?[?A-z]{0,}$" title="Informe seu nome e sobrenome">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone-alt "></i></span>
+                        </div>
+                        <input type="text" name="tel" id="tel" class="form-control" maxlength="12" placeholder="Telephone" aria-label="Username" aria-describedby="basic-addon1" pattern="^[0-9]{2} ?[0-9]{9}$" title="Digite apenas números validos">
+                    </div>
+                    <label class="title">How you met us?</label>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect" id="inputSelect"><i class="fas fa-question" id="teste"></i></label>
+                      </div>
+                      <select class="custom-select" name="inputGroupSelect" id="inputGroupSelect">
+                        <option >Choose...</option>
+                        <option id="tv" value="Televisão">Television</option>
+                        <option id="internet" value="Internet">Internet</option>
+                        <option id="others" value="Outros">Others</option>
+                      </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="title">Has social networks?</label>
+                        <div class="container">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="inputRadio" id="inputRadio1" value="Sim" onchange="show('divOthers')">
+                                <label class="form-check-label" for="inputRadio1" >
+                                  yes  
+                                </label>
+                            </div>
+                            <div class="hidden" id="divOthers">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="facebook" id="facebook" value="Facebook">
+                                    <label class="form-check-label" for="facebook">
+                                      Facebook
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="linkedin" id="linkedin" value="Linkedin">
+                                    <label class="form-check-label" for="linkedin">
+                                      Linkedin
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="instagram" id="instagram" value="Instagram">
+                                    <label class="form-check-label" for="instagram">
+                                      Instagram
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="inputRadio" id="inputRadio2" value="Não" onchange="hide('divOthers')">
+                                <label class="form-check-label" for="inputRadio2">
+                                  no
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="submit" class="btn" id="btnSubmit" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
