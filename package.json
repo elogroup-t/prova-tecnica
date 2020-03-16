@@ -1,0 +1,16 @@
+{
+  "name": "desafioelogroup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node config.js"
+  },
+  "author": "@Andr3zinh00",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "express": "^4.17.1"
+  }
+}

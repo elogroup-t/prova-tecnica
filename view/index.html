@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/index.styles.css">
+  <script src="https://kit.fontawesome.com/31dfe686c5.js" crossorigin="anonymous"></script>
+  <title>EloGroup </title>
+</head>
+
+<body>
+  <div class="aplicacao">
+    <div class="meio">
+      <form method="POST" action="http://localhost:8080" target="_blank" onsubmit="return scriptForm()">
+        <div class="name-tel">
+          <input class="inp" placeholder="Nome" type="text" name="nome" id="inpName">
+          <input class="inp" placeholder="Telefone: ** – ********" type="text" name="telefone" id="inpTel">
+        </div>
+        <div class="div-con">
+          <label>Como nos conheceu:</label>
+          <select class="select" id="sel" name="comoNosConheceu">
+            <option value="">...</option>
+            <option value="tv">TV</option>
+            <option value="internet">Internet</option>
+            <option value="outros">Outros</option>
+          </select>
+        </div>
+        <div class="radios">
+          <div class="social-header">
+            <span for="">Possui rede social?</span>
+          </div>
+          <div class="yes-no" >
+            <label for="">Sim</label>
+            <input onclick="return hiddenSub(false)" value="sim" type="radio" name="possuiRedeSocial" id="yes">
+            <label for="">Não</label>
+            <input onclick="return hiddenSub(true)" value="nao" type="radio" name="possuiRedeSocial" id="no">
+          </div>
+        </div>
+
+        <div class="social-md">
+          <div class="qual" hidden>
+            <label class="ys">Quais:</label>
+          </div>
+          <div class="icon-div" hidden> 
+            <i style="color: darkblue;" class="fab fa-facebook-square"></i>
+            <input type="checkbox" value="facebook" name="facebook">
+            <i style="color:rgb(40,103,178)" class="fab fa-linkedin"></i>
+            <input type="checkbox" value="linkedin" name="linkedin">
+            <i style="color:#cc2366;"class="fab fa-instagram-square"></i>
+            <input type="checkbox" value="instagram" name="instagram">
+          </div>
+        </div>
+        <footer>
+          <input id="sub-button" class="footer-inp" type="submit" value="Entregar">
+        </footer>
+      </form>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+
+</body>
+
+</html>
